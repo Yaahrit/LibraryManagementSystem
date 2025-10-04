@@ -1,29 +1,42 @@
-Library Management System – Quick Start Guide
-Overview
-  This is a Java Swing Desktop Library Management System using MySQL.
-  Supports Admin and User roles with simple dashboards to manage books, members, and transactions.
+# Library Management System – Quick Start Guide
 
-Quick Features
-Admin
-  1.Login with admin/admin123
-  2.Manage Books, Members, Users, and Transactions
+## Overview
 
-User
-  1.Login with any new username → auto-registers
-  2.Browse books, borrow/return, view transactions
+This is a **Java Swing Desktop Library Management System** using **MySQL**.  
+Supports **Admin** and **User** roles with dashboards to manage books, members, and transactions.
 
-Dummy Credentials
+---
 
-| Role  | Username         | Password     |
-| ----- | ---------------- | ------------ |
-| Admin | admin            | admin123     |
+## Quick Features
+
+**Admin**  
+- Login with `admin/admin123`  
+- Manage Books, Members, Users, and Transactions  
+
+**User**  
+- Login with any new username → auto-registers  
+- Browse books, borrow/return, view transactions  
+
+---
+
+## Dummy Credentials
+
+| Role  | Username | Password   |
+|-------|----------|------------|
+| Admin | admin    | admin123   |
 | User  | Any new username | Any password |
-Note: Users are automatically registered if they don’t exist in the system.
 
+> Note: Users are automatically registered if they don’t exist in the system.
 
-Setup & Run
-1. Create Database & Tables
+---
+
+## Setup & Run
+
+### 1. Create Database & Tables
+
 Run these commands in MySQL:
+
+```sql
 CREATE DATABASE library;
 
 USE library;
